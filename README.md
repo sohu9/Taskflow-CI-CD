@@ -140,6 +140,15 @@ Whenever code is pushed to the **main** branch:
 
 ---
 
+## 🏗️ CI/CD Architecture
+
+TaskFlow uses an automated CI/CD pipeline where code changes pushed to GitHub trigger Jenkins through a webhook. Jenkins builds the Docker image and deploys the application as a Docker container on an AWS EC2 Ubuntu server.
+
+![TaskFlow CI/CD Architecture](architecture/taskflow-cicd-architecture.png)
+
+---
+
+
 ## 👨‍💻 Author
 
 **Momin Shoaib Akhter**
